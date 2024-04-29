@@ -1,0 +1,140 @@
+/* *{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  padding: 50px;
+  display: flexbox;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(250, 255, 154, 0.691);
+}
+
+
+h3{
+  font-size: 45px;
+  color: rgb(190, 0, 248);
+  padding: 20px 40px;
+}
+
+div{
+  margin-top: 20px;
+  height: 100px;
+  width: 500px;
+  border: 1px solid black;
+  margin: 50px auto;
+  border-radius: 50px;
+}
+
+div p{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  padding: 34px;
+}
+
+h1{
+  display: none;
+}
+
+button{
+  margin-top: 30px;
+  height: 80px;
+  width: 200px;
+  text-align: center;
+  background-color: crimson;
+  color: rgb(0, 255, 64);
+  font-size: 25px;
+  border-radius: 50px;
+}
+h4{
+  display: inline;
+  opacity: 0;
+
+  font-size: 40px;
+  height: 100%;
+text-align: center;
+align-items: center;
+padding: 40px 300px;
+width: 100%;
+color: rgb(255, 8, 8);
+}
+
+
+ */
+
+
+ /* this is chat gpt */
+
+ * {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  text-align: center;
+  background-color: rgba(250, 255, 154, 0.691);
+}
+
+h2, h3, h4 {
+  margin: 20px 0;
+}
+
+h3{
+  color: purple;
+  font-size: 40px;
+}
+h4{
+  opacity: 0;
+}
+
+div {
+  margin-top: 20px;
+  height: 100px;
+  width: 80%;
+  max-width: 500px;
+  border: 1px solid black;
+  margin: 50px auto;
+  border-radius: 50px;
+}
+
+div p {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  padding: 34px;
+}
+
+h1 {
+  display: none;
+}
+
+button {
+  margin-top: 30px;
+  height: 80px;
+  width: 200px;
+  text-align: center;
+  background-color: rgb(28, 27, 27);
+  color: rgb(255, 162, 0);
+  font-size: 25px;
+  border-radius: 50px;
+} 
+
+@media screen and (max-width: 768px) {
+  div {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  div {
+    width: 95%;
+  }
+
+  button {
+    width: 150px;
+  }
+}
